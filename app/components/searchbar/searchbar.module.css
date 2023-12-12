@@ -1,0 +1,15 @@
+.icon {
+  position: absolute;
+}
+.container input {
+  height: 34px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: none;
+  color: #fff;
+  border: 1px solid transparent;
+  outline: none;
+  padding-left: 45px;
+  font-size: 16px;
+  transition: 0.3s ease all;
+  border-color: #fff;
+}

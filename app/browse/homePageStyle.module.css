@@ -1,0 +1,34 @@
+.bannerContainer {
+  position: relative;
+  width: 100%;
+}
+.description {
+  color: #fff;
+  font-size: 24px;
+}
+.metaData {
+  position: absolute;
+  display: flex;
+  left: 4%;
+  bottom: 20%;
+  width: 36%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.ctaContainer {
+  display: flex;
+  flex-direction: row;
+}
+.backgroundConcealer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    180deg,
+    rgba(20, 20, 20, 0.8015581232492998) 0%,
+    rgba(20, 20, 20, 0.6362920168067228) 50%
+  );
+}

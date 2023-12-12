@@ -1,0 +1,70 @@
+.navbar {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  padding-top: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 0.4009978991596639) 0%,
+    rgba(9, 9, 121, 0) 35%
+  );
+  z-index: 1;
+}
+
+.navbar.sticky {
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  background-color: rgb(20, 20, 20);
+  position: fixed;
+  top: 0;
+}
+
+.logoContainer {
+  justify-content: center;
+}
+.logo {
+  margin: 10px 0px 0px 30px;
+}
+
+.navbarItemsContainer {
+  flex-grow: 8;
+}
+
+.navbarItemsContainer ul,
+.searchbarContainer ul {
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caret:hover {
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+
+.navbarItemsContainer ul li a,
+.searchbarContainer ul li a {
+  margin: 0px 10px 0px 10px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+.navbarItemsContainer ul li a:hover {
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  color: #b3b3b3;
+}
+
+.searchbarContainer {
+  flex-grow: 2;
+  margin-top: -20px;
+}
+
+.searchbarContainer ul {
+  list-style-type: none;
+  display: inline-flex;
+}
